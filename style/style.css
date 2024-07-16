@@ -160,3 +160,41 @@ body{
   text-align: right;
   margin-top: 50px;
  }
+/* featured container style*/
+.featured-container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  gap: 90px;
+  align-items: center;
+}
+.featured-text{
+  max-width: 600px;
+
+}
+.featured-title{
+  color: rgb(10, 8, 38);
+  font-size: 2.30rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+ 
+
+}
+.featured-description{
+  color: rgb(108, 108, 108);
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+.join-btn{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  background-color: rgb(224, 44, 109);
+  padding: 10px 24px;
+  border: none;
+  
+
+}
