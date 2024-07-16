@@ -4,3 +4,159 @@
 body{
   font-family: "Poppins", sans-serif;
 }
+/* shared style  */
+.display-flex{
+  display: flex;
+}
+/* header style */
+.header{
+  max-width: 1240px;
+  margin: 0 auto;
+  
+}
+.nav{
+  justify-content: space-between ;
+  align-items: center;
+  
+}
+.nav li{
+  list-style: none;
+  
+}
+.menu{
+  gap: 34px;
+
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+}
+.brand{
+  color: rgb(58, 58, 58);
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+/* banner design */
+.banner{
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.banner-text{
+  max-width: 580px;
+}
+.banner-title{
+  color: rgb(58, 58, 58);
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+
+}
+.banner-description{
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 16px;
+
+}
+.prebook-btn{
+  color: rgb(255, 255, 255);
+  border-radius: 41px;
+  background-color: rgb(224, 44, 109);
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 24px;
+  border: 0;
+
+}
+.banner-image{
+  width: 475px;
+}
+.circle{
+  position: relative;
+  width: 100%;
+}
+.camera{
+  position: absolute;
+  right: 250px;
+  bottom: 155px;
+  
+}
+/* banner logos style*/
+ .banner-logos{
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding-top: 40px;
+  margin-bottom: 100px;
+  padding-bottom: 40px;
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(7, 1fr);
+ }
+ /* main style */
+ main{
+  max-width: 1110px;
+  margin: 0 auto;
+ }
+ /* collection container style */
+ .collection-container{
+  max-width: 1047px;
+  margin: 0 auto;
+ }
+ .collection-title{
+  color: rgb(58, 58, 58);
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+
+ }
+ .collection-card-container{
+   margin-top: 30px;
+   display: grid;
+   gap: 30px;
+   grid-template-rows: repeat(3, 1fr);
+   grid-template-columns: repeat(3, 1fr);
+ 
+   background: rgb(255, 255, 255);
+ }
+ .collection-card{
+  padding: 14px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+ }
+ .card-title{
+  color: rgb(24, 25, 31);
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+ }
+ .card-price{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.50rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+ }
+ .checked{
+  color: orange;
+  margin-bottom: 0;
+ }
+ .card-description{
+  color: rgb(120, 120, 133);
+  font-size: .875rem;
+  font-weight: 700;
+ }
+ .bottom-text{
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  text-align: right;
+  margin-top: 50px;
+ }
